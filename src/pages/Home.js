@@ -38,7 +38,7 @@ import Image35 from "../img/portfolio/35.jpg";
 import Image36 from "../img/portfolio/36.jpg";
 
 // import images
-import WomanImg from "../img/home/katya.jpg";
+import WomanImg from "../img/home/katyalandbig.jpg";
 
 //import link
 import { Link } from "react-router-dom";
@@ -68,7 +68,7 @@ const Home = () => {
             {/* text & img wrapper */}
             <div className="flex flex-col justify-center">
               {/* text */}
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: "-50%" }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: "-50%" }}
@@ -113,7 +113,7 @@ const Home = () => {
                 >
                   katya isbell
                 </motion.h1>
-              </div>
+              </div> */}
 
               {/* image */}
               <div className="flex justify-end max-h-max ">
