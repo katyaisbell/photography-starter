@@ -1,7 +1,7 @@
 import React from "react";
 //import components
 import Socials from "./Socials";
-import Logo from "../img/header/logo-tent.png";
+// import Logo from "../img/header/logo-tent.png";
 import MobileNav from "./MobileNav";
 
 //import link
