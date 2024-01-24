@@ -1,47 +1,10 @@
 import React from "react";
 
-import Image1 from "../img/portfolio/1.jpg";
-import Image2 from "../img/portfolio/2.jpg";
-import Image3 from "../img/portfolio/3.jpg";
-import Image4 from "../img/portfolio/4.jpg";
-import Image5 from "../img/portfolio/5.jpg";
-import Image6 from "../img/portfolio/6.jpg";
-import Image7 from "../img/portfolio/7.jpg";
-import Image8 from "../img/portfolio/8.jpg";
-// import Image9 from "../img/portfolio/9.jpg";
-import Image10 from "../img/portfolio/10.jpg";
-import Image11 from "../img/portfolio/11.jpg";
-import Image12 from "../img/portfolio/12.jpg";
-import Image13 from "../img/portfolio/13.jpg";
-import Image14 from "../img/portfolio/14.jpg";
-import Image15 from "../img/portfolio/15.jpg";
-import Image16 from "../img/portfolio/16.jpg";
-import Image17 from "../img/portfolio/17.jpg";
-import Image18 from "../img/portfolio/18.jpg";
-import Image19 from "../img/portfolio/19.jpg";
-import Image20 from "../img/portfolio/20.jpg";
-import Image21 from "../img/portfolio/21.jpg";
-import Image22 from "../img/portfolio/22.jpg";
-import Image23 from "../img/portfolio/23.jpg";
-import Image24 from "../img/portfolio/24.jpg";
-import Image25 from "../img/portfolio/25.jpg";
-import Image26 from "../img/portfolio/26.jpg";
-import Image27 from "../img/portfolio/27.jpg";
-import Image28 from "../img/portfolio/28.jpg";
-import Image29 from "../img/portfolio/29.jpg";
-import Image30 from "../img/portfolio/30.jpg";
-import Image31 from "../img/portfolio/31.jpg";
-import Image32 from "../img/portfolio/32.jpg";
-import Image33 from "../img/portfolio/33.jpg";
-import Image34 from "../img/portfolio/34.jpg";
-import Image35 from "../img/portfolio/35.jpg";
-import Image36 from "../img/portfolio/36.jpg";
-
 // import images
-import WomanImg from "../img/home/katyalandbig.jpg";
+import WomanImg from "../img/home/katya.jpg";
 
 //import link
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 //import motion
 import { motion } from "framer-motion";
@@ -58,7 +21,7 @@ const Home = () => {
     <>
       <div className="sm:pb-0 md:pb-72">
         <motion.section
-          initial={{ opacity: 0 }}
+          initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={transition1}
