@@ -38,7 +38,7 @@ import Image35 from "../img/portfolio/35.jpg";
 import Image36 from "../img/portfolio/36.jpg";
 
 // import images
-import WomanImg from "../img/home/katya2.jpg";
+import WomanImg from "../img/home/katya.jpg";
 
 //import link
 import { Link } from "react-router-dom";
@@ -118,7 +118,7 @@ const Home = () => {
               {/* image */}
               <div className="flex justify-end max-h-max ">
                 <motion.div
-                  initial={{ scale: 0 }}
+                  initial={{ scale: 0.9 }}
                   animate={{ scale: 1 }}
                   exit={{ scale: 0 }}
                   transition={transition1}
