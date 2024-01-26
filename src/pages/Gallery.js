@@ -54,6 +54,8 @@ import Image54 from "../img/portfolio/54.jpg";
 import Image57 from "../img/portfolio/57.jpg";
 
 import Image59 from "../img/portfolio/59.jpg";
+import Image60 from "../img/portfolio/60.jpg";
+
 import Image63 from "../img/portfolio/63.jpg";
 
 import Image67 from "../img/portfolio/67.jpg";
@@ -326,6 +328,10 @@ const Gallery2 = () => {
       id: 59,
       imgSrc: Image59,
     },
+    {
+      id: 60,
+      imgSrc: Image60,
+    },
 
     {
       id: 63,
@@ -358,7 +364,7 @@ const Gallery2 = () => {
         className="flex flex-col sm:items-center"
       >
         {/* <h1 className="h1 ">Gallery</h1> */}
-        <p className="mb-12 mt-12 mx-w-sm "> The art inspired by you</p>
+        <p className="mb-12 mt-36 mx-w-sm "> The art inspired by you</p>
         {/* <Link to={"/contact"} className="btn mb-[30px] mx-auto lg:mx-0">
               Hire me
             </Link> */}

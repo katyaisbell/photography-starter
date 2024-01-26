@@ -151,7 +151,7 @@ const Home = () => {
                   Photography from Salt Lake City, Utah
                 </p>
                 <Link to={"/about"} className="btn bg-primary mb-[30px]">
-                  Learn more
+                  Curious?
                 </Link>
               </motion.div>
 
