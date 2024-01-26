@@ -142,7 +142,7 @@ const Home = () => {
                 <motion.h1
                   whileHover={{ scale: 1 }}
                   transition={transition1}
-                  className="h1  font-accent lowercase text-primary "
+                  className="h1  font-accent font-normal lowercase text-primary "
                 >
                   salt. <br />
                 </motion.h1>

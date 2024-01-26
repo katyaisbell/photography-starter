@@ -2,6 +2,8 @@ import React from "react";
 
 //import components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 import AnimRoutes from "./components/AnimRoutes";
 
 //import router
@@ -13,6 +15,7 @@ const App = () => {
       <Router>
         <Header />
         <AnimRoutes />
+        <Footer />
       </Router>
     </>
   );

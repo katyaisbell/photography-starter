@@ -6,6 +6,7 @@ module.exports = {
       secondary: "Montserrat",
       accent: "Raiders",
       logo: "Josefin Sans",
+      salt: "Anton",
       // secondary: "Sometype Mono",
     },
     screens: {
