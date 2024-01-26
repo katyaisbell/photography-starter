@@ -40,10 +40,11 @@ const About = () => {
           >
             <h1 className="h1 ">About me</h1>
             <p className="mb-12 mx-w-sm">
-              Hello, I'm Katya, a photographer specializing in capturing the
-              beauty of love, the essence of individuals, and the allure of
-              editorial aesthetics. I love to transform moments into{" "}
-              <b>memories </b>
+              Hello, I'm Katya, a photographer from{" "}
+              <span className="font-accent text-[24px]">salt.</span> Lake City,
+              Utah. I specialize in capturing the beauty of love, the essence of
+              individuals, and the allure of editorial aesthetics. I love to
+              transform moments into <b>memories </b>
               and portraits into <b>visual poetry</b>.
               <br />
               <br />

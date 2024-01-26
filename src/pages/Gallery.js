@@ -9,7 +9,7 @@ import Image4 from "../img/portfolio/4.jpg";
 import Image5 from "../img/portfolio/5.jpg";
 
 import Image8 from "../img/portfolio/8.jpg";
-import Image9 from "../img/portfolio/9.jpg";
+// import Image9 from "../img/portfolio/9.jpg";
 import Image10 from "../img/portfolio/10.jpg";
 import Image11 from "../img/portfolio/11.jpg";
 import Image12 from "../img/portfolio/12.jpg";
@@ -35,7 +35,7 @@ import Image34 from "../img/portfolio/34.jpg";
 import Image35 from "../img/portfolio/35.jpg";
 import Image36 from "../img/portfolio/36.jpg";
 
-import Image38 from "../img/portfolio/38.jpg";
+// import Image38 from "../img/portfolio/38.jpg";
 
 import Image40 from "../img/portfolio/40.jpg";
 import Image41 from "../img/portfolio/41.jpg";
@@ -48,7 +48,7 @@ import Image48 from "../img/portfolio/48.jpg";
 
 import Image50 from "../img/portfolio/50.jpg";
 import Image51 from "../img/portfolio/51.jpg";
-import Image52 from "../img/portfolio/52.jpg";
+// import Image52 from "../img/portfolio/52.jpg";
 
 import Image54 from "../img/portfolio/54.jpg";
 import Image57 from "../img/portfolio/57.jpg";
@@ -156,10 +156,10 @@ const Gallery2 = () => {
       imgSrc: Image5,
     },
 
-    {
-      id: 9,
-      imgSrc: Image9,
-    },
+    // {
+    //   id: 9,
+    //   imgSrc: Image9,
+    // },
 
     {
       id: 8,
@@ -259,10 +259,10 @@ const Gallery2 = () => {
       imgSrc: Image36,
     },
 
-    {
-      id: 38,
-      imgSrc: Image38,
-    },
+    // {
+    //   id: 38,
+    //   imgSrc: Image38,
+    // },
 
     {
       id: 40,
@@ -307,10 +307,10 @@ const Gallery2 = () => {
       id: 51,
       imgSrc: Image51,
     },
-    {
-      id: 52,
-      imgSrc: Image52,
-    },
+    // {
+    //   id: 52,
+    //   imgSrc: Image52,
+    // },
 
     {
       id: 54,
@@ -358,7 +358,7 @@ const Gallery2 = () => {
         className="flex flex-col sm:items-center"
       >
         {/* <h1 className="h1 ">Gallery</h1> */}
-        <p className="mb-12 mt-12 mx-w-sm ">The art inspired by you</p>
+        <p className="mb-12 mt-12 mx-w-sm "> The art inspired by you</p>
         {/* <Link to={"/contact"} className="btn mb-[30px] mx-auto lg:mx-0">
               Hire me
             </Link> */}
