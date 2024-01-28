@@ -201,12 +201,12 @@ const Home = () => {
           </div>
         </motion.section>
       </div>
-      <div className="pt-28 pb-12">
+      <div className="my-14 pt-28 pb-12">
         {" "}
         <Gallery2 />
       </div>
 
-      <div className="pb-52">
+      <div className="my-14 pb-52">
         <About />
       </div>
       <div className="pb-36">
