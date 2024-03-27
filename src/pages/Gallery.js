@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 //import images
 import Image1 from "../img/portfolio/1.jpg";
@@ -365,9 +366,9 @@ const Gallery2 = () => {
       >
         {/* <h1 className="h1 ">Gallery</h1> */}
         <p className="mb-12 mt-36 mx-w-sm "> The art inspired by you</p>
-        {/* <Link to={"/contact"} className="btn mb-[30px] mx-auto lg:mx-0">
-              Hire me
-            </Link> */}
+        {/* <Link to={""} className="btn mb-[30px] mx-auto lg:mx-0">
+          Download pricing
+        </Link> */}
       </motion.div>
       <div className="gallery">
         {data.map((item, index) => {

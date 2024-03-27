@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 //import transition
 import { transition1 } from "../transitions";
+//
+import pricing from "../img/price/pricing.pdf";
 
 const About = () => {
   return (
@@ -54,9 +56,12 @@ const About = () => {
               ensuring that your photographs remain cherished and relevant for
               years to come.
             </p>
-            <Link to={"/gallery"} className="btn">
-              View my work
-            </Link>
+            {/* <Link to={pricing} download="pricing" className="btn">
+              Download pricing
+            </Link> */}
+            <a href={pricing} download="pricing" className="btn">
+              Download pricing
+            </a>
           </motion.div>
         </div>
       </div>

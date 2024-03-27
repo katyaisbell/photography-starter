@@ -209,10 +209,10 @@ const Home = () => {
       <div className="my-14 pb-52">
         <About />
       </div>
-      <div className="pb-36">
+      {/* <div className="pb-36">
         {" "}
         <Contact />
-      </div>
+      </div> */}
     </>
   );
 };
