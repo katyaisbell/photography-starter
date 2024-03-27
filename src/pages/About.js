@@ -2,7 +2,7 @@ import React from "react";
 //import images
 import WomanImg from "../img/about/woman-3.jpg";
 //import link
-import { Link } from "react-router-dom";
+
 //import motion
 import { motion } from "framer-motion";
 //import transition
@@ -56,9 +56,7 @@ const About = () => {
               ensuring that your photographs remain cherished and relevant for
               years to come.
             </p>
-            {/* <Link to={pricing} download="pricing" className="btn">
-              Download pricing
-            </Link> */}
+
             <a href={pricing} download="pricing" className="btn">
               Download pricing
             </a>

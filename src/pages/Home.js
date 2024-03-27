@@ -14,7 +14,6 @@ import { transition1 } from "../transitions";
 
 import Gallery2 from "../pages/Gallery";
 import About from "../pages/About";
-import Contact from "../pages/Contact";
 
 const Home = () => {
   return (
@@ -209,10 +208,6 @@ const Home = () => {
       <div className="my-14 pb-52">
         <About />
       </div>
-      {/* <div className="pb-36">
-        {" "}
-        <Contact />
-      </div> */}
     </>
   );
 };
