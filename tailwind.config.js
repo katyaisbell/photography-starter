@@ -10,7 +10,7 @@ module.exports = {
       // secondary: "Sometype Mono",
     },
     screens: {
-      sm: "390px",
+      sm: "490px",
       md: "768px",
       lg: "1024px",
       xl: "1192px",
