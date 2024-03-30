@@ -23,7 +23,7 @@ const Insight = () => {
       >
         <h1 className="ml-12 mr-12 mb-12 mt-36 text-center">{advice}</h1>
         <button className="btn mb-12" onClick={getAdvice}>
-          Need an insight?
+          Seeking insight?
         </button>
       </motion.div>
     </>
