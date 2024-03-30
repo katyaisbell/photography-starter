@@ -38,6 +38,12 @@ const Header = () => {
             About
           </Link>
           <Link
+            to={"/pricing"}
+            className="text-[#696c6d] hover:text-primary uppercase transition"
+          >
+            Pricing
+          </Link>
+          <Link
             to={"/contact"}
             className="text-[#696c6d] hover:text-primary uppercase transition"
           >

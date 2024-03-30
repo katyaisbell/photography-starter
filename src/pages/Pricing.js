@@ -1,8 +1,7 @@
 import React from "react";
 //import images
-import WomanImg from "../img/about/woman-3.jpg";
+import CoupleImg from "../img/price/couple.jpg";
 //import link
-import { Link } from "react-router-dom";
 
 //import motion
 import { motion } from "framer-motion";
@@ -29,7 +28,7 @@ const About = () => {
             <motion.img
               whileHover={{ scale: 0.8 }}
               transition={transition1}
-              src={WomanImg}
+              src={CoupleImg}
               alt=""
             />
           </div>
@@ -41,26 +40,27 @@ const About = () => {
             transition={transition1}
             className="flex-1 sm:pt-36 pt-36 pb-0 lg:pt-20 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start"
           >
-            <h1 className="h1 ">About me</h1>
+            <h1 className="h1 ">Pricing</h1>
             <p className="mb-12 mx-w-sm">
-              Hello, I'm Katya, a photographer from{" "}
-              <span className="font-accent text-[24px]">salt.</span> Lake City,
-              Utah. I specialize in capturing the beauty of love, the essence of
-              individuals, and the allure of editorial aesthetics. I love to
-              transform moments into <b>memories </b>
-              and portraits into <b>visual poetry</b>.
+              I want to bring your vision to life! Whether you're dreaming of a
+              romantic wedding shoot or a laid-back family portrait session, I'm
+              here to make it happen. Let's chat about your ideas, and together,
+              we'll create magic.
+              {/* I understand that every client is unique, and so are their
+              photography needs. From the initial consultation to the final
+              delivery, I work closely with you to understand your vision and
+              tailor my services to suit your preferences perfectly. My goal is
+              to create an experience that's as seamless and enjoyable as it is
+              unforgettable. */}
               <br />
               <br />
-              My style can be described as a blend of <b>timeless </b> elegance
-              and <b>contemporary </b>
-              flair. I believe in creating images that transcend trends,
-              ensuring that your photographs remain cherished and relevant for
-              years to come.
+              Below you can find types of sessions I specialize in along with
+              prices to give you an idea of investment.
             </p>
 
-            <Link to={"/gallery"} className="btn">
-              Explore my work
-            </Link>
+            <a href={pricing} download="pricing" className="btn">
+              Download pricing
+            </a>
           </motion.div>
         </div>
       </div>

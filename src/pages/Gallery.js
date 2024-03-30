@@ -350,13 +350,6 @@ const Gallery2 = () => {
     setModel(true);
   };
 
-  const [advice, setAdvice] = useState("");
-  async function getAdvice() {
-    const res = await fetch("https://api.adviceslip.com/advice");
-    const data = await res.json();
-    setAdvice(data.slip.advice);
-  }
-
   return (
     <>
       <div className={model ? "model open" : "model"}>
@@ -373,10 +366,7 @@ const Gallery2 = () => {
       >
         {/* <h1 className="h1 ">Gallery</h1> */}
         {/* <p className="mb-12 mt-36 mx-w-sm "> The art inspired by you</p> */}
-        <h1 className="ml-12 mr-12 mb-12 mt-36 ">{advice}</h1>
-        <button className="btn mb-12" onClick={getAdvice}>
-          Need an insight?
-        </button>
+
         <p className="mb-12 mx-w-sm "> The art inspired by you</p>
       </motion.div>
       <div className="gallery">
