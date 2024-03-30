@@ -373,8 +373,8 @@ const Gallery2 = () => {
       >
         {/* <h1 className="h1 ">Gallery</h1> */}
         {/* <p className="mb-12 mt-36 mx-w-sm "> The art inspired by you</p> */}
-        <h1 className="mb-12 mt-36 mx-w-sm">{advice}</h1>
-        <button className="btn mb-12  mx-w-sm" onClick={getAdvice}>
+        <h1 className="mb-12 mt-36 ">{advice}</h1>
+        <button className="btn mb-12" onClick={getAdvice}>
           Need an insight?
         </button>
         <p className="mb-12 mx-w-sm "> The art inspired by you</p>
