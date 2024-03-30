@@ -349,6 +349,14 @@ const Gallery2 = () => {
     setTempImgSrc(imgSrc);
     setModel(true);
   };
+
+  const [advice, setAdvice] = useState("");
+  async function getAdvice() {
+    const res = await fetch("https://api.adviceslip.com/advice");
+    const data = await res.json();
+    setAdvice(data.slip.advice);
+  }
+
   return (
     <>
       <div className={model ? "model open" : "model"}>
@@ -364,7 +372,12 @@ const Gallery2 = () => {
         className="flex flex-col sm:items-center"
       >
         {/* <h1 className="h1 ">Gallery</h1> */}
-        <p className="mb-12 mt-36 mx-w-sm "> The art inspired by you</p>
+        {/* <p className="mb-12 mt-36 mx-w-sm "> The art inspired by you</p> */}
+        <h1 className="mb-12 mt-36 mx-w-sm">{advice}</h1>
+        <button className="btn mb-12  mx-w-sm" onClick={getAdvice}>
+          Need an insight?
+        </button>
+        <p className="mb-12 mx-w-sm "> The art inspired by you</p>
       </motion.div>
       <div className="gallery">
         {data.map((item, index) => {
