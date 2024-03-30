@@ -8,8 +8,6 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 //import transition
 import { transition1 } from "../transitions";
-//
-import pricing from "../img/price/pricing.pdf";
 
 const About = () => {
   return (
