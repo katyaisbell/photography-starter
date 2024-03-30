@@ -21,7 +21,7 @@ const Insight = () => {
         transition={transition1}
         className="flex flex-col sm:items-center"
       >
-        <h1 className="ml-12 mr-12 mb-12 mt-36 text-center">{advice}</h1>
+        <h1 className="ml-12 mr-12 mb-12 mt-52 text-center">{advice}</h1>
         <button className="btn mb-12" onClick={getAdvice}>
           Seeking insight?
         </button>
