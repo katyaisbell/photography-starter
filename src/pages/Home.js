@@ -14,7 +14,7 @@ import { transition1 } from "../transitions";
 
 import Gallery2 from "../pages/Gallery";
 import About from "../pages/About";
-import Insight from "../pages/Insight";
+// import Insight from "../pages/Insight";
 
 const Home = () => {
   return (
