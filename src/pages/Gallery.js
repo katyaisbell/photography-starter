@@ -59,6 +59,7 @@ import Image60 from "../img/portfolio/60.jpg";
 import Image63 from "../img/portfolio/63.jpg";
 
 import Image67 from "../img/portfolio/67.jpg";
+import Image69 from "../img/portfolio/69.jpg";
 
 //import links
 // import { Link } from "react-router-dom";
@@ -341,6 +342,11 @@ const Gallery2 = () => {
     {
       id: 67,
       imgSrc: Image67,
+    },
+
+    {
+      id: 69,
+      imgSrc: Image69,
     },
   ];
   const [model, setModel] = useState(false);
