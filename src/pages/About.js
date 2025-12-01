@@ -1,6 +1,6 @@
 import React from "react";
 //import images
-import WomanImg from "../img/about/woman-3.jpg";
+import WomanImg from "../img/about/woman-4.jpg";
 //import link
 import { Link } from "react-router-dom";
 
@@ -43,17 +43,24 @@ const About = () => {
             <p className="mb-12 mx-w-sm">
               Hello, I'm Katya, a photographer from{" "}
               <span className="font-accent text-[24px]">salt.</span> Lake City,
-              Utah. I specialize in capturing the beauty of love, the essence of
-              individuals, and the allure of editorial aesthetics. I love to
-              transform moments into <b>memories </b>
-              and portraits into <b>visual poetry</b>.
+              Utah. Color is the heart of my work. I'm often told my tones look
+              "yummy", and that's exactly what I love - rich, soft, clean edits
+              with the light that feels <b>intentional</b>. I love to create
+              images that feels timeless and beautiful enough to live on your
+              walls, not just a screen.
               <br />
               <br />
-              My style can be described as a blend of <b>timeless </b> elegance
-              and <b>contemporary </b>
-              flair. I believe in creating images that transcend trends,
-              ensuring that your photographs remain cherished and relevant for
-              years to come.
+              Buttery colors.
+              <br />
+              Light you can feel.
+              <br />
+              Moments that matter.
+              <br />
+              Couples, families, brides.
+              <br />
+              When I create, I give it all.
+              <br />
+              Nothing is half-hearted.
             </p>
 
             <Link to={"/gallery"} className="btn">
